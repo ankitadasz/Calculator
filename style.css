@@ -1,3 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+
+
+
+
+
+
 .calci-container{
     width: 100vw;
     height: 100vh;
@@ -6,16 +20,30 @@
     align-items: center;
 }
 .calci{
-    
-    height: 350px;
-    width: 191px;
+    border: 2px solid rgb(255, 255, 255);
+   padding: 30px;
+    height: 500px;
+    width: 350px;
+}
+.btns{
+    margin-top: 50px;
+    margin-left: 30px;
 }
 
 .calc-btns{
-    border-radius: 20px;
+     width: 50px;
+    height: 50px;
+      padding: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    color: white;
     text-align: center;
     cursor: pointer;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 7px;
 }
 .calc-btns:hover{
-    background-color: yellow;
+    background-color: rgb(177, 53, 18);
+    transition: 0.2s ease-in;
 }
