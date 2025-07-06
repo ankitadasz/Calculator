@@ -74,7 +74,7 @@ input {
 }
 @media (max-width:600px) {
   .calci-container{
-    padding-bottom: 5vh;
+    padding-bottom: 8vh;
   }
   .calc-btns:hover {
   background-color: #2a2a2c;
