@@ -5,6 +5,9 @@
 }
 body {
   background-color: black;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
 }
 input {
   margin: 10px auto;
@@ -68,4 +71,16 @@ input {
 .calc-btns:hover {
   background-color: #ff9601;
   transition: 0.2s ease-in;
+}
+@media (max-width:600px) {
+  .calci-container{
+    padding-bottom: 5vh;
+  }
+  .calc-btns:hover {
+  background-color: #2a2a2c;
+  transition: none;
+}
+#operator:hover {
+  background-color: #AAAAAA;
+}
 }
